@@ -5,6 +5,7 @@ var cordova = require('cordova');
  * 
  * @constructor
  */
+// eslint-disable-next-line @typescript-eslint/no-empty-function
 function Clipboard () {}
 
 /**
@@ -15,8 +16,8 @@ function Clipboard () {}
  * @param {Function} onFail    The function to call in case of error
  */
 Clipboard.prototype.copy = function (text, onSuccess, onFail) {
-    if (typeof text === "undefined" || text === null) text = "";
-	cordova.exec(onSuccess, onFail, "Clipboard", "copy", [text]);
+    if (typeof text === 'undefined' || text === null) text = '';
+	cordova.exec(onSuccess, onFail, 'Clipboard', 'copy', [text]);
 };
 
 /**
@@ -26,7 +27,7 @@ Clipboard.prototype.copy = function (text, onSuccess, onFail) {
  * @param {Function} onFail    The function to call in case of error
  */
 Clipboard.prototype.paste = function (onSuccess, onFail) {
-	cordova.exec(onSuccess, onFail, "Clipboard", "paste", []);
+	cordova.exec(onSuccess, onFail, 'Clipboard', 'paste', []);
 };
 
 /**
@@ -36,7 +37,7 @@ Clipboard.prototype.paste = function (onSuccess, onFail) {
  * @param {Function} onFail    The function to call in case of error
  */
 Clipboard.prototype.clear = function (onSuccess, onFail) {
-	cordova.exec(onSuccess, onFail, "Clipboard", "clear", []);
+	cordova.exec(onSuccess, onFail, 'Clipboard', 'clear', []);
 };
 
 // Register the plugin

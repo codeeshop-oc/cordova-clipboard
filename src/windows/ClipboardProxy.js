@@ -40,7 +40,7 @@ module.exports = {
     },
     paste: function (successCallback, errorCallback, args) {
         try {
-            var text = "";
+            var text = '';
 
             var dataPackageView = Windows.ApplicationModel.DataTransfer.Clipboard.getContent();
             if (dataPackageView.contains(Windows.ApplicationModel.DataTransfer.StandardDataFormats.text)) {
@@ -64,4 +64,4 @@ module.exports = {
     }
 }; // exports
 
-require("cordova/exec/proxy").add("Clipboard", module.exports);
+require('cordova/exec/proxy').add('Clipboard', module.exports);
