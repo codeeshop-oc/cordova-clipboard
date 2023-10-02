@@ -3,14 +3,6 @@
   "version": "1.4.0",
   "types": "./types/index.d.ts",
   "description": "Clipboard management plugin for Cordova/PhoneGap that supports iOS, Android, and WP8",
-  "cordova": {
-    "id": "@codeeshop-oc/cordova-plugin-clipboard",
-    "platforms": [
-      "android",
-      "ios",
-      "wp8"
-    ]
-  },
   "scripts": {
     "test": "npm run lint",
     "lint": "eslint ."
