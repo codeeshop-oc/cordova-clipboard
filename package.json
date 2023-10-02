@@ -1,6 +1,6 @@
 {
   "name": "@codeeshop/cordova-plugin-clipboard",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "private": false,
   "types": "./types/index.d.ts",
   "description": "Clipboard management plugin for Cordova/PhoneGap that supports iOS, Android, and WP8",
