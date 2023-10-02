@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ihadeed/cordova-clipboard.git"
+    "url": "git+https://github.com/codeeshop-oc/cordova-clipboard.git"
   },
   "keywords": [
     "cordova",
@@ -29,8 +29,8 @@
   "author": "Ibrahim Hadeed",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ihadeed/cordova-clipboard/issues"
+    "url": "https://github.com/codeeshop-oc/cordova-clipboard/issues"
   },
-  "homepage": "https://github.com/ihadeed/cordova-clipboard#readme",
+  "homepage": "https://github.com/codeeshop-oc/cordova-clipboard#readme",
   "devDependencies": {}
 }
